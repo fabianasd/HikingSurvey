@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA960A4D2E0AD14D00DC0F54 /* HikingSurveyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA960A4C2E0AD14D00DC0F54 /* HikingSurveyApp.swift */; };
-		FA960A4F2E0AD14D00DC0F54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA960A4E2E0AD14D00DC0F54 /* ContentView.swift */; };
-		FA960A512E0AD15000DC0F54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA960A502E0AD15000DC0F54 /* Assets.xcassets */; };
-		FA960A542E0AD15000DC0F54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA960A532E0AD15000DC0F54 /* Preview Assets.xcassets */; };
+		FA960A4F2E0AD14D00DC0F54 /* SurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA960A4E2E0AD14D00DC0F54 /* SurveyView.swift */; };
 		FA960A5E2E0AD15000DC0F54 /* HikingSurveyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA960A5D2E0AD15000DC0F54 /* HikingSurveyTests.swift */; };
 		FA960A682E0AD15000DC0F54 /* HikingSurveyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA960A672E0AD15000DC0F54 /* HikingSurveyUITests.swift */; };
 		FA960A6A2E0AD15000DC0F54 /* HikingSurveyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA960A692E0AD15000DC0F54 /* HikingSurveyUITestsLaunchTests.swift */; };
+		FA960A7D2E0AD54100DC0F54 /* SentimentEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA960A7C2E0AD54100DC0F54 /* SentimentEnum.swift */; };
+		FAAAC74D2E0C4C8B00237232 /* SurveyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAC74C2E0C4C8B00237232 /* SurveyViewModel.swift */; };
+		FAAAC7512E0C4CC300237232 /* SurveyPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAC7502E0C4CC300237232 /* SurveyPresenter.swift */; };
+		FAAAC7532E0C4CE200237232 /* SurveyContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAC7522E0C4CE200237232 /* SurveyContract.swift */; };
+		FAAAC75E2E0C4D7300237232 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAC75C2E0C4D7300237232 /* Color+Hex.swift */; };
+		FAAAC75F2E0C4D7300237232 /* SentimentChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAC75D2E0C4D7300237232 /* SentimentChartView.swift */; };
+		FAAAC7612E0C4D8D00237232 /* SurveyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAC7602E0C4D8D00237232 /* SurveyResponse.swift */; };
+		FAAAC7632E0C4DAB00237232 /* SurveyInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAC7622E0C4DAB00237232 /* SurveyInteractor.swift */; };
+		FAAAC7662E0C4E5000237232 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAC7652E0C4E5000237232 /* AppDelegate.swift */; };
+		FAAAC7692E0C61E300237232 /* Scorer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAC7682E0C61E300237232 /* Scorer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,15 +42,22 @@
 
 /* Begin PBXFileReference section */
 		FA960A492E0AD14D00DC0F54 /* HikingSurvey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HikingSurvey.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA960A4C2E0AD14D00DC0F54 /* HikingSurveyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikingSurveyApp.swift; sourceTree = "<group>"; };
-		FA960A4E2E0AD14D00DC0F54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		FA960A502E0AD15000DC0F54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FA960A532E0AD15000DC0F54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA960A4E2E0AD14D00DC0F54 /* SurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyView.swift; sourceTree = "<group>"; };
 		FA960A592E0AD15000DC0F54 /* HikingSurveyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HikingSurveyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA960A5D2E0AD15000DC0F54 /* HikingSurveyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikingSurveyTests.swift; sourceTree = "<group>"; };
 		FA960A632E0AD15000DC0F54 /* HikingSurveyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HikingSurveyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA960A672E0AD15000DC0F54 /* HikingSurveyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikingSurveyUITests.swift; sourceTree = "<group>"; };
 		FA960A692E0AD15000DC0F54 /* HikingSurveyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikingSurveyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FA960A7C2E0AD54100DC0F54 /* SentimentEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentimentEnum.swift; sourceTree = "<group>"; };
+		FAAAC74C2E0C4C8B00237232 /* SurveyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyViewModel.swift; sourceTree = "<group>"; };
+		FAAAC7502E0C4CC300237232 /* SurveyPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyPresenter.swift; sourceTree = "<group>"; };
+		FAAAC7522E0C4CE200237232 /* SurveyContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyContract.swift; sourceTree = "<group>"; };
+		FAAAC75C2E0C4D7300237232 /* Color+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		FAAAC75D2E0C4D7300237232 /* SentimentChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SentimentChartView.swift; sourceTree = "<group>"; };
+		FAAAC7602E0C4D8D00237232 /* SurveyResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyResponse.swift; sourceTree = "<group>"; };
+		FAAAC7622E0C4DAB00237232 /* SurveyInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyInteractor.swift; sourceTree = "<group>"; };
+		FAAAC7652E0C4E5000237232 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAAAC7682E0C61E300237232 /* Scorer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scorer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +85,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA8EF4EB2E0C2CF500E5002D /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				FA960A7C2E0AD54100DC0F54 /* SentimentEnum.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		FA8EF4EC2E0C2D8200E5002D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FAAAC7602E0C4D8D00237232 /* SurveyResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		FA960A402E0AD14D00DC0F54 = {
 			isa = PBXGroup;
 			children = (
@@ -94,20 +124,18 @@
 		FA960A4B2E0AD14D00DC0F54 /* HikingSurvey */ = {
 			isa = PBXGroup;
 			children = (
-				FA960A4C2E0AD14D00DC0F54 /* HikingSurveyApp.swift */,
-				FA960A4E2E0AD14D00DC0F54 /* ContentView.swift */,
-				FA960A502E0AD15000DC0F54 /* Assets.xcassets */,
-				FA960A522E0AD15000DC0F54 /* Preview Content */,
+				FAAAC7642E0C4E5000237232 /* Root */,
+				FAAAC75B2E0C4D7300237232 /* Helpers */,
+				FA8EF4EC2E0C2D8200E5002D /* Models */,
+				FA8EF4EB2E0C2CF500E5002D /* Enum */,
+				FA960A4E2E0AD14D00DC0F54 /* SurveyView.swift */,
+				FAAAC74C2E0C4C8B00237232 /* SurveyViewModel.swift */,
+				FAAAC7622E0C4DAB00237232 /* SurveyInteractor.swift */,
+				FAAAC7502E0C4CC300237232 /* SurveyPresenter.swift */,
+				FAAAC7522E0C4CE200237232 /* SurveyContract.swift */,
+				FAAAC7672E0C5EE300237232 /* Preview Content */,
 			);
 			path = HikingSurvey;
-			sourceTree = "<group>";
-		};
-		FA960A522E0AD15000DC0F54 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				FA960A532E0AD15000DC0F54 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		FA960A5C2E0AD15000DC0F54 /* HikingSurveyTests */ = {
@@ -125,6 +153,31 @@
 				FA960A692E0AD15000DC0F54 /* HikingSurveyUITestsLaunchTests.swift */,
 			);
 			path = HikingSurveyUITests;
+			sourceTree = "<group>";
+		};
+		FAAAC75B2E0C4D7300237232 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FAAAC75C2E0C4D7300237232 /* Color+Hex.swift */,
+				FAAAC75D2E0C4D7300237232 /* SentimentChartView.swift */,
+				FAAAC7682E0C61E300237232 /* Scorer.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FAAAC7642E0C4E5000237232 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				FAAAC7652E0C4E5000237232 /* AppDelegate.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		FAAAC7672E0C5EE300237232 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +284,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA960A542E0AD15000DC0F54 /* Preview Assets.xcassets in Resources */,
-				FA960A512E0AD15000DC0F54 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +308,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA960A4F2E0AD14D00DC0F54 /* ContentView.swift in Sources */,
-				FA960A4D2E0AD14D00DC0F54 /* HikingSurveyApp.swift in Sources */,
+				FAAAC7662E0C4E5000237232 /* AppDelegate.swift in Sources */,
+				FAAAC7612E0C4D8D00237232 /* SurveyResponse.swift in Sources */,
+				FAAAC7632E0C4DAB00237232 /* SurveyInteractor.swift in Sources */,
+				FAAAC75F2E0C4D7300237232 /* SentimentChartView.swift in Sources */,
+				FAAAC7692E0C61E300237232 /* Scorer.swift in Sources */,
+				FAAAC7512E0C4CC300237232 /* SurveyPresenter.swift in Sources */,
+				FA960A4F2E0AD14D00DC0F54 /* SurveyView.swift in Sources */,
+				FAAAC74D2E0C4C8B00237232 /* SurveyViewModel.swift in Sources */,
+				FAAAC75E2E0C4D7300237232 /* Color+Hex.swift in Sources */,
+				FAAAC7532E0C4CE200237232 /* SurveyContract.swift in Sources */,
+				FA960A7D2E0AD54100DC0F54 /* SentimentEnum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
