@@ -21,6 +21,7 @@
 		FAAAC7632E0C4DAB00237232 /* SurveyInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAC7622E0C4DAB00237232 /* SurveyInteractor.swift */; };
 		FAAAC7662E0C4E5000237232 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAC7652E0C4E5000237232 /* AppDelegate.swift */; };
 		FAAAC7692E0C61E300237232 /* Scorer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAC7682E0C61E300237232 /* Scorer.swift */; };
+		FAAAC76E2E0D7E8600237232 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAAC76D2E0D7E8600237232 /* home.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		FAAAC7622E0C4DAB00237232 /* SurveyInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyInteractor.swift; sourceTree = "<group>"; };
 		FAAAC7652E0C4E5000237232 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAAAC7682E0C61E300237232 /* Scorer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scorer.swift; sourceTree = "<group>"; };
+		FAAAC76D2E0D7E8600237232 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 		FAAAC7672E0C5EE300237232 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				FAAAC76D2E0D7E8600237232 /* home.png */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAAAC76E2E0D7E8600237232 /* home.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
