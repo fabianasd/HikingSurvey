@@ -7,4 +7,4 @@ As respostas são então exibidas com destaque visual por meio de um gráfico de
 
 ### Home
 
-![Orders](https://raw.githubusercontent.com/fabianasd/HikingSurvey/master/PreviewContent/home.png)
+![Orders](https://raw.githubusercontent.com/fabianasd/HikingSurvey/master/Preview%20Content/home.png)
