@@ -135,7 +135,7 @@
 				FAAAC7622E0C4DAB00237232 /* SurveyInteractor.swift */,
 				FAAAC7502E0C4CC300237232 /* SurveyPresenter.swift */,
 				FAAAC7522E0C4CE200237232 /* SurveyContract.swift */,
-				FAAAC7672E0C5EE300237232 /* Preview Content */,
+				FAAAC7672E0C5EE300237232 /* Images */,
 			);
 			path = HikingSurvey;
 			sourceTree = "<group>";
@@ -175,12 +175,12 @@
 			path = Root;
 			sourceTree = "<group>";
 		};
-		FAAAC7672E0C5EE300237232 /* Preview Content */ = {
+		FAAAC7672E0C5EE300237232 /* Images */ = {
 			isa = PBXGroup;
 			children = (
 				FAAAC76D2E0D7E8600237232 /* home.png */,
 			);
-			path = "Preview Content";
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -480,7 +480,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HikingSurvey/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"HikingSurvey/Images\"";
 				DEVELOPMENT_TEAM = B4MF8USFZJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -509,7 +509,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HikingSurvey/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"HikingSurvey/Images\"";
 				DEVELOPMENT_TEAM = B4MF8USFZJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;

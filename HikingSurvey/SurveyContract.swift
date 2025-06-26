@@ -1,21 +1,12 @@
-protocol SurveyScreenDelegate: AnyObject {
-    
-    func didUpdateText(_ text: String)
-    func didSubmitResponse()
-}
+protocol SurveyViewDelegate: AnyObject {}
 
-protocol SurveyViewProtocol: AnyObject {
-    
-    func formValidated(_ valid: Bool)
-    func showInvalidInputToast()
-}
+protocol SurveyViewProtocol: AnyObject {}
 
 protocol SurveyPresenterProtocol: AnyObject {
     
     var viewModel: SurveyViewModel { get }
     
     func submitResponse()
-    func setInput(_ text: String)
 }
 
 protocol SurveyInteractorProtocol: AnyObject {
@@ -26,7 +17,4 @@ protocol SurveyInteractorProtocol: AnyObject {
 
 protocol SurveyInteractorOutputProtocol: AnyObject {}
 
-protocol SurveyRouterProtocol: AnyObject {
-    
-    func closeSurvey()
-}
+protocol SurveyRouterProtocol: AnyObject {}

@@ -5,6 +5,7 @@ class SurveyInteractor {
 }
 
 extension SurveyInteractor: SurveyInteractorProtocol {
+    
     func score(text: String) -> SurveyResponse {
         let tagger = NLTagger(tagSchemes: [.sentimentScore])
         tagger.string = text
